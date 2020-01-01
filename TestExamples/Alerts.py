@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
-driver= webdriver.Chrome(executable_path= "C:/Users/VICOMA/Documents/Drivers/chromedriver.exe")
+driver= webdriver.Chrome()
+
 driver.get("https://testautomationpractice.blogspot.com/")
 driver.maximize_window()
 driver.find_element_by_xpath("//*[@id='HTML9']/div[1]/button").click()
